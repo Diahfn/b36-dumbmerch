@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "dumbmerch",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable": "postgres://fekyhdcjekbuij:3eef46b6b58e37e5868c7b0f5d3d47d4e1e8bc239fda9156af11de3e037c0a25@ec2-44-207-126-176.compute-1.amazonaws.com:5432/d1a0thtjs044u6",
+    "dialect": "postgres",
+    "protocol": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
