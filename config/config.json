@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "dumbmerch",
-    "host": "localhost",
+    "username": "postgres",
+    "password": "root",
+    "database": "postgres",
+    "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
@@ -15,9 +15,9 @@
   },
   "production": {
     "username": "root",
-    "password": null,
+    "password": "null",
     "database": "dumbmerch",
     "host": "localhost",
-    "dialect": "postgres"
+    "dialect": "mysql"
   }
 }
