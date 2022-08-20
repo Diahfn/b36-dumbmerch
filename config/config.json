@@ -4,7 +4,7 @@
     "password": null,
     "database": "dumbmerch",
     "host": "localhost",
-    "dialect": "mysql"
+    "dialect": "postgres"
   },
   "test": {
     "username": "root",
