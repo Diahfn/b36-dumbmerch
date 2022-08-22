@@ -21,7 +21,7 @@ const io = new Server(server, {
 // Import socket function and call it with paramater io
 require('./src/socket')(io)
 
-const port = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000
 
 app.use(express.json())
 app.use(cors())
@@ -35,4 +35,4 @@ app.get('/', function (req, res) {
     });
   });
 
-server.listen(process.env.PORT || port, () => console.log(`Server running on port: ${port}`))
+server.listen(process.env.PORT || PORT, () => console.log(`Server running on port: ${port}`))
