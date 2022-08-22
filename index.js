@@ -35,4 +35,4 @@ app.get('/', function (req, res) {
     });
   });
 
-server.listen(port, () => console.log(`Server running on port: ${port}`))
+server.listen(process.env.PORT || port, () => console.log(`Server running on port: ${port}`))
