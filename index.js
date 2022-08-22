@@ -21,7 +21,7 @@ const io = new Server(server, {
 // Import socket function and call it with paramater io
 require('./src/socket')(io)
 
-const PORT = process.env.PORT || 5000
+const PORT = 5000 || process.env.PORT ||
 
 app.use(express.json())
 app.use(cors())
